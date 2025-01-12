@@ -19,17 +19,19 @@ import Layout from '../layouts/Layout.astro';
             </nav>
         </header>
         <!-- Sección Home -->
-        <section id="home" class="grid grid-cols-1 md:grid-cols-2 gap-0 justify-items-start tracking-wide text-slate-700 md:px-10 pt-40 pb-20 ml-20 mr-5">
-            <div class="flex flex-col items-center md:items-baseline text-left md:text-left">
-                <h2 class="text-4xl md:text-6xl leading-snug">
-                    <span class="font-semibold">Tu negocio es único</span><br> nuestra consultoría <br>también.
+        <section id="home" class="grid grid-cols-1 md:grid-cols-2 gap-20 leading-snug justify-items-center tracking-wide text-slate-700 px-10 md:px-20 pt-40 pb-20 mx-auto max-w-7xl">
+            <!-- Texto home -->
+            <div class="flex flex-col items-start md:items-baseline text-left md:text-left">
+                <h2 class="text-4xl md:text-6xl m-5">
+                    <span class="font-semibold">Tu negocio es único</span> nuestra consultoría también.
                 </h2>
-                <p class="text-xl md:text-3xl py-4">
-                    Soluciones a medida para tus necesidades específicas.</p>
+                <p class="text-xl md:text-3xl mx-5">
+                    Soluciones a medida para tus necesidades específicas.
+                </p>
             </div>
-            <!-- Imagen -->
-            <div class="flex justify-center flex-shrink-0 justify-items-start ">
-                <img src="/images/home.png" alt="Home" class="w-full max-w-sm md:max-w-md lg:max-w-lg"/>
+            <!-- Imagen home -->
+            <div class="flex justify-center flex-shrink-0">
+                <img src="/images/home.png" alt="Home" class="w-full h-auto"/>
             </div>
         </section>
 
